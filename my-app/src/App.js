@@ -1,16 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
-import StatefulGreeting from './components/StatefulGreeting';
-import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
-import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
+import "./App.css";
+import SearchBar from "./components/SearchBar";
+import { SearchBar3 } from "./components/SearchBar3";
 
 function App() {
-  return (
-    <div className="App">
-     <StatefulGreetingWithPrevState/>
-    </div>
-  );
+  return <div className="App">
+      <SearchBar/>
+  </div>;
 }
 
 export default App;
