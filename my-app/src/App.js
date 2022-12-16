@@ -1,11 +1,10 @@
 import "./App.css";
-import SearchBar from "./components/SearchBar";
-import { SearchBar3 } from "./components/SearchBar3";
+import UseStateWithObjects from "./components/UseStateWithObjects";
 
 function App() {
   return <div className="App">
-      <SearchBar/>
-  </div>;
+      <UseStateWithObjects />
+    </div>;
 }
 
 export default App;
